@@ -1,1 +1,1 @@
-add_executable(linkedlist2)
+add_executable(linkedlist2 main.cpp)
