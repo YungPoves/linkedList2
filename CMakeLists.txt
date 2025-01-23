@@ -9,6 +9,8 @@ project(LinkedList2 VERSION ${RELEASE_SERVICE_VERSION})
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
+add_subdirectory(src)
+
 target_include_directories(LinkedList2 PUBLIC
                           "${PROJECT_BINARY_DIR}"
                           )
